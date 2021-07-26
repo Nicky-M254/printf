@@ -1,4 +1,4 @@
-# Awe ome _printf() function
+# Awesome _printf() function
 
 **_printf** - formatted output conversion
 
