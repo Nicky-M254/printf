@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project 0x11.C - recreating the 'printf' function
 
 Requirements
@@ -17,3 +18,6 @@ General
 
 GOAL
 To write a _printf function (similar to the 'printf' function provided by the standard C I/O Libary).
+=======
+#
+>>>>>>> first commit
