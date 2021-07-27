@@ -2,6 +2,8 @@
 #define HOLBERTON_H
 #include <stdarg.h>
 
+int _putchar(char c);
+
 /**
  * struct specifiers - Struct specifiers
  * @specifier: The conversion specifier
@@ -36,9 +38,9 @@ typedef struct op
 {
 	char *op;
 	int (*f)(char *s);
-} op_t;
+} opt_t;
 
-
+int (*_getfunc(char str))(char *str);
 int op_int(char *s);
 int op_str(char *s);
 
