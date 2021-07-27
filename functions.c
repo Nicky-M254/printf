@@ -31,18 +31,21 @@ int op_str(char *s)
  *
  * Return: The number of characters printed
  */
-int op_int(char *ptr)
+/*int op_int(char *ptr)
 {
-	unsigned long int i = 0;
+	int length;
+
+	int i = 0;
 
 	if (ptr != NULL)
 	{
 		i = 0;
-		while (i <= strlen(ptr))
+		length = strlen(ptr);
+		while (i <= length)
 		{
 			_putchar(ptr[i] % 10 + '0');
 			i++;
 		}
 	}
 	return (i);
-}
+}*/

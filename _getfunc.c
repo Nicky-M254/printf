@@ -16,8 +16,6 @@ int (*_getfunc(char str))(char *str)
 
 		opt_t ops[] = {
 		{"s", op_str},
-		{"d", op_int},
-		{"i", op_int},
 		{NULL, NULL}
 		};
 
