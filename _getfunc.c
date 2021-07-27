@@ -3,7 +3,7 @@
 #include "holberton.h"
 
 /**
- * _get-func - function pointere gets the right function for task and returns \
+ * _getfunc - function pointere gets the right function for task and returns \
  * to the pointed function.
  * @str: character to compare and determine the right specifier
  * @str: string to be printed/converted
@@ -17,13 +17,9 @@ int (*_getfunc(char str))(char *str)
 		opt_t ops[] = {
 		{"s", op_str},
 		{"d", op_int},
-                {"i", op_int},
-/*                {"u", op_unsign},
-                {"o", op_oct},
-                {"x", op_lower_hex},
-                {"X", op_upper_hex},*/
-                {NULL, NULL}
-        };
+		{"i", op_int},
+		{NULL, NULL}
+		};
 
 	i = 0;
 

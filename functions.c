@@ -26,22 +26,17 @@ int op_str(char *s)
 }
 
 /**
- * op_char - prints/converts characters, %d and %i
- * @s: the arugment to work with
+ * op_int - prints/converts characters, %d and %i
+ * @ptr: the arugment to work with
  *
  * Return: The number of characters printed
  */
 int op_int(char *ptr)
 {
-	long unsigned int i = 0;
-
-/*	char *op_ptr;*/
+	unsigned long int i = 0;
 
 	if (ptr != NULL)
 	{
-/*		op_ptr = (int *)malloc(sizeof(int) * strlen(ptr));
-		op_ptr = (int *)ptr;*/
-
 		i = 0;
 		while (i <= strlen(ptr))
 		{
