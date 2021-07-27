@@ -24,28 +24,3 @@ int op_str(char *s)
 	}
 	return (i);
 }
-
-/**
- * op_int - prints/converts characters, %d and %i
- * @ptr: the arugment to work with
- *
- * Return: The number of characters printed
- */
-/*int op_int(char *ptr)
-{
-	int length;
-
-	int i = 0;
-
-	if (ptr != NULL)
-	{
-		i = 0;
-		length = strlen(ptr);
-		while (i <= length)
-		{
-			_putchar(ptr[i] % 10 + '0');
-			i++;
-		}
-	}
-	return (i);
-}*/
