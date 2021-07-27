@@ -26,4 +26,20 @@ int _print_int_binary(va_list args);
 void _recursion_int_binary(int a);
 int _validate_char(char _type);
 
-#endif /* _HOLBERTON */
+/**
+ * struct op - structure of data for _printf
+ * @op: pointer
+ * @f: function pointer
+ * @s: function pointed to
+ */
+typedef struct op
+{
+	char *op;
+	int (*f)(char *s);
+} op_t;
+
+
+int op_int(char *s);
+int op_str(char *s);
+
+#endif
