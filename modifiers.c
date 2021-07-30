@@ -1,4 +1,4 @@
-/* code for handling modification of precision,flags and width*/
+/* code for handling modification of precision,flags and width */
 #include "holberton.h"
 
 unsigned int print_width(buffer_t *output, unsigned int printed,
