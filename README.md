@@ -5,9 +5,9 @@ programming and algorithm track at Holberton School. The program is a pseudo-
 recreation of the C standard library function, `printf`.
 
 
+## Dependancies
 
-
-
+This _printf function was coded on an Ubuntu 20.04 LTS machine (sandbox)
 
 ## Usage
 
