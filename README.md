@@ -1,14 +1,14 @@
-# _printf :
+# _printf
 
 A formatted output conversion C program completed as part of the low-level
 programming and algorithm track at Holberton School. The program is a pseudo-
 recreation of the C standard library function, `printf`.
 
-## Dependencies :
+## Dependencies
 
 The `_printf` function was coded on an Ubuntu 14.04 LTS machine with `gcc` version 4.8.4.
 
-## Usage :
+## Usage
 
 To use the `_printf` function, assuming the above dependencies have been installed,
 compile all `.c` files in the repository and include the header `holberton.h` with
@@ -26,7 +26,7 @@ int main(void)
 }
 ```
 
-Compilation:
+Compilation
 ```
 $ gcc *.c -o tester
 ```
@@ -38,7 +38,7 @@ Hello, World!
 $
 ```
 
-## Description :
+## Description
 
 The function `_printf` writes output to standard output. The function writes
 under the control of a `format` string that specifies how subsequent arguments
@@ -413,7 +413,7 @@ Output:
 %
 ```
 
-## More Examples :thumbsup:
+## More Examples
 
 To print the address of Holberton School in the format "972 Mission St., San
 Francisco, CA 94103" where *street*, *city* and *state* are pointers to strings:
@@ -475,4 +475,4 @@ Output:
 
 ## Author
 
-**_printf()** is written and maintained by Nicholas Mwanza and Paul Onyedikachi Afonne.
+**_printf ** is written and maintained by Nicholas Mwanza and Paul Onyedikachi Afonne.
