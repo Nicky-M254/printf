@@ -476,5 +476,5 @@ Output:
 
 ## Author
 
-** _printf is written and maintained by Nicholas Mwanza and Paul Onyedikachi Afonne.
+* _printf is written and maintained by Nicholas Mwanza and Paul Onyedikachi Afonne.
 
