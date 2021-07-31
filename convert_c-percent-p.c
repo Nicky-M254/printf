@@ -1,5 +1,17 @@
 #include "holberton.h"
 
+unsigned int convert_c(va_list args, buffer_t *output,
+
+		unsigned char flags, int wid, int prec, unsigned char len);
+
+unsigned int convert_percent(va_list args, buffer_t *output,
+
+		unsigned char flags, int wid, int prec, unsigned char len);
+
+unsigned int convert_p(va_list args, buffer_t *output,
+
+		unsigned char flags, int wid, int prec, unsigned char len);
+
 /**
  * convert_c - Converts an argument to an unsigned char and
  *             stores it to a buffer contained in a struct.
